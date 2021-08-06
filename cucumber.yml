@@ -1,0 +1,8 @@
+default: -p pretty -p ci -p html_report -p json_report -p dev
+
+dev: ENVIRONMENT_TYPE=dev
+qa: ENVIRONMENT_TYPE=qa
+pretty: --format pretty
+ci: --format progress
+html_report: --format html --out=relatorios/report.html
+json_report: --format json --out=relatorios/report.json
