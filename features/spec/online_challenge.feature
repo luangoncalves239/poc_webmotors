@@ -6,7 +6,7 @@ Funcionalidade: Validar POC WebMotors
   @make
   Esquema do Cenário: Consulta servico make sem filtro por marca
     Dado que eu consulte o contrato make de marcas
-    Entao deve retorna com o valor <marca> disponivel
+    Entao deve retorna com o valor "<marca>" disponivel
     Exemplos:
       |marca    |
       |Chevrolet|
