@@ -17,7 +17,7 @@ Funcionalidade: Validar POC WebMotors
   @model
   Esquema do Cenário: Consulta servico model
     Dado que eu consulte o contrato make de marcas
-    Quando consultar o contrato model com a marca <marca>
+    Quando consultar o contrato model com a marca "<marca>"
     Entao deve retorna com o valor "<modelo>" disponivel
     Exemplos:
       |marca      |modelo    |
@@ -46,3 +46,4 @@ Funcionalidade: Validar POC WebMotors
       |Honda      |Fit     |1.5 LX 16V FLEX 4P MANUAL    |
       |Ford       |Ecosport|1.5 DX 16V FLEX 4P AUTOMÁTICO|
       |Ford       |Fussion |1.5 DX 16V FLEX 4P AUTOMÁTICO|
+      
